@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li, a, button {
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration:none;
+}
+body {
+    background-color: rgba(209, 201, 201, 0.733);
+}
+
+.like-button {
+    
+}
+
+section {
+    display: inline-block;
+    border: 2px solid rgb(63, 60, 60);
+    width: 45%;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(88, 86, 83);
+    color: #fff;
+    border-radius: 0.5em;
+}
+
+section a {
+    color: rgb(75, 22, 22);
+}
+
+
+.post-title {
+    color: #fff;
+}
+
+.header {
+    display: flex;
+    justify-content:space-between;
+    background-color: rgb(88, 86, 83);
+    padding: 10px;
+}
+
+.nav-bar {
+    list-style: none;
+    position: relative;
+    top: 12.5px;
+}
+
+.nav-item {
+    display: inline;
+    margin: 6.5px;
+}
+
+#logout {
+    margin-left: 30px;
+}
+
+#logout a {
+    color: rgb(212, 129, 129);
+}
+
+#logout a:hover {
+    color: rgb(109, 17, 17);
+}
+
+.nav-item a {
+    transition: all 0.3s ease 0s;
+    color: #fff;
+    font-size: 19px;
+}
+
+.nav-item a:hover {
+    transition: all 0.3s ease 0s;
+    color: rgb(156, 152, 152);
+}
+
+.logo-text {
+    display: inline;
+}
+
+
+.logo {
+    padding-left: 10px;
+    background-color: rgb(88, 86, 83);
+    color: #fff;
+    /* padding: 0 1.5%; */
+    padding-bottom: 12px;
+    display: inline;
+    cursor:context-menu;
+    
+}
+
+.logo-text {
+    display: inline;
+}
+
+.logo-img {
+    padding-right: 3px;
+    margin-top: 10px;
+    display: inline;
+    position: relative;
+    top: 3.8px;
+}
+
